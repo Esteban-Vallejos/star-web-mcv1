@@ -15,7 +15,7 @@ var telegram_tag="";
 var str= "";
 
 function f1(){
-    name = "Candidature Web";
+    name = "Canditatura star Web";
 
     //strpuzzle
     discord_tag = document.getElementById("DsTag").value;
@@ -33,7 +33,7 @@ function f1(){
 
     //strfinal
 
-    str = "```Tag Discord:" + "\r\n" + discord_tag + "\r\n" + "Edad:" + "\r\n" + eta + "\r\n" + "Tiempo jugado en el servidor:" + "\r\n" + tempo_gioco + "\r\n" + "Designado:" + "\r\n" + modalita + "\r\n" + "Tiempo disponible en línea:" + "\r\n" + ore_online + "\r\n" + "Experiencias como personal:" + "\r\n" + staff_exp + "\r\n" + "¿Qué harías si los usuarios te insulten?:" + "\r\n" + insulti_staff + "\r\n" + "¿Qué harías si los usuarios asumen el comportamiento racista?:" + "\r\n" + razzismo + "\r\n" + "Porque quieres ingresar al personal:" + "\r\n" + why_staff + "\r\n" + "C¿Qué crees que tienes más que otros candidatos?:" + "\r\n" + more_than_others + "\r\n" + "@correo:" + "\r\n" + telegram_tag + "```" ;
+    str = "```Tag Discord:" + "\r\n" + discord_tag + "\r\n" + "Edad:" + "\r\n" + eta + "\r\n" + "Tiempo jugado en el servidor:" + "\r\n" + tempo_gioco + "\r\n" + "Designado:" + "\r\n" + modalita + "\r\n" + "Tiempo disponible en línea:" + "\r\n" + ore_online + "\r\n" + "Experiencias como personal:" + "\r\n" + staff_exp + "\r\n" + "¿Qué harías si los usuarios te insulten?:" + "\r\n" + insulti_staff + "\r\n" + "¿Qué harías si los usuarios asumen el comportamiento racista?:" + "\r\n" + razzismo + "\r\n" + "Porque quieres ingresar al personal:" + "\r\n" + why_staff + "\r\n" + "¿Qué crees que tienes más que otros candidatos?:" + "\r\n" + more_than_others + "\r\n" + "@correo:" + "\r\n" + telegram_tag + "```" ;
     console.log(document.getElementById("DsTag").value);
 }
 
